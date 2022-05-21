@@ -73,7 +73,7 @@ class _EmailWidgetsState extends State<EmailWidgets> {
    );
     Backend().markEmailAsRead(widget.email.id);
           setState(() {
-            color2 = Color.fromARGB(186, 28, 207, 64);
+            color2 = Color.fromARGB(185, 27, 211, 199);
           });
           
     },
